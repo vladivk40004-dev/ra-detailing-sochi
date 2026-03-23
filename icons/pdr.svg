@@ -1,0 +1,15 @@
+<svg width="163" height="120" viewBox="0 0 163 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Кузовная панель -->
+<rect x="25" y="30" width="113" height="65" rx="8" stroke="#858585" stroke-width="3" fill="none"/>
+<!-- Вмятина (вогнутый круг) -->
+<circle cx="75" cy="62" r="18" stroke="#e11d48" stroke-width="2" fill="none" stroke-dasharray="4 3"/>
+<circle cx="75" cy="62" r="10" stroke="#e11d48" stroke-width="1.5" fill="rgba(225,29,72,0.1)" stroke-dasharray="3 2"/>
+<!-- Стрелка исправления (снизу вверх) -->
+<line x1="75" y1="100" x2="75" y2="75" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round"/>
+<polyline points="68,82 75,74 82,82" stroke="#e11d48" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- PDR инструмент (крюк) -->
+<path d="M115 20 L115 50 Q115 62, 105 62 L90 62" stroke="#858585" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="115" cy="17" r="4" fill="#858585"/>
+<!-- Звёздочки "исправлено" -->
+<text x="125" y="45" font-size="14" fill="#e11d48">✓</text>
+</svg>

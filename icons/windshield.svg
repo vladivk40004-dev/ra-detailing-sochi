@@ -1,0 +1,12 @@
+<svg width="163" height="120" viewBox="0 0 163 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Лобовое стекло (трапеция) -->
+<path d="M35 90 L50 30 Q55 20, 81 18 Q107 20, 112 30 L127 90" stroke="#858585" stroke-width="3" fill="none" stroke-linejoin="round"/>
+<!-- Рамка стекла -->
+<path d="M38 88 L52 32 Q56 24, 81 22 Q106 24, 110 32 L124 88" stroke="#858585" stroke-width="1.5" fill="none" stroke-dasharray="0"/>
+<!-- Плёнка на стекле (полупрозрачная) -->
+<path d="M42 85 L54 35 Q58 27, 81 25 Q104 27, 108 35 L120 85 Z" fill="#e11d48" opacity="0.15"/>
+<!-- Щит защиты по центру -->
+<path d="M81 45 L95 52 L95 68 C95 78, 81 85, 81 85 C81 85, 67 78, 67 68 L67 52 Z" stroke="#e11d48" stroke-width="2.5" fill="rgba(225,29,72,0.2)"/>
+<!-- Галочка внутри щита -->
+<polyline points="73,63 79,70 91,56" stroke="#e11d48" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

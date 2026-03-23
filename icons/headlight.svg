@@ -1,0 +1,17 @@
+<svg width="163" height="120" viewBox="0 0 163 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Фара (форма линзы) -->
+<path d="M40 60 Q40 30, 75 25 L120 35 Q135 40, 135 60 Q135 80, 120 85 L75 95 Q40 90, 40 60 Z" stroke="#858585" stroke-width="3" fill="none"/>
+<!-- Внутренняя линза -->
+<ellipse cx="90" cy="60" rx="25" ry="20" stroke="#858585" stroke-width="2" fill="none"/>
+<!-- Лампа внутри -->
+<circle cx="90" cy="60" r="8" fill="#858585" opacity="0.4"/>
+<!-- Тонировочная плёнка (затемнение) -->
+<path d="M43 60 Q43 33, 75 28 L120 38 Q132 42, 132 60 Q132 78, 120 82 L75 92 Q43 87, 43 60 Z" fill="#e11d48" opacity="0.2"/>
+<!-- Полоса плёнки -->
+<path d="M55 40 L130 48" stroke="#e11d48" stroke-width="2" stroke-dasharray="6 4" opacity="0.6"/>
+<path d="M50 55 L132 58" stroke="#e11d48" stroke-width="2" stroke-dasharray="6 4" opacity="0.6"/>
+<!-- Лучи (до тонировки — тусклые) -->
+<line x1="30" y1="50" x2="15" y2="42" stroke="#858585" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+<line x1="28" y1="60" x2="12" y2="60" stroke="#858585" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+<line x1="30" y1="70" x2="15" y2="78" stroke="#858585" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+</svg>
