@@ -407,9 +407,12 @@ img{max-width:100%;display:block}
 /* ===== BRANDS ===== */
 .brands{padding:40px 24px;text-align:center}
 .brands-label{font-size:12px;color:var(--gray);text-transform:uppercase;letter-spacing:2px;margin-bottom:20px}
-.brands-row{display:flex;justify-content:center;gap:24px;flex-wrap:wrap}
-.brand-item{font-size:14px;font-weight:700;color:rgba(255,255,255,0.2);letter-spacing:2px;text-transform:uppercase;transition:color .3s}
-.brand-item:hover{color:var(--primary)}
+.brands-row{display:flex;justify-content:center;align-items:center;gap:32px;flex-wrap:wrap}
+.brand-item{height:28px;opacity:0.4;filter:brightness(0) invert(1);transition:all .3s;display:flex;align-items:center}
+.brand-item:hover{opacity:0.9;filter:brightness(0) invert(1) drop-shadow(0 0 8px rgba(225,29,72,0.4))}
+.brand-item img{height:100%;width:auto;object-fit:contain}
+.brand-item.white-logo{filter:none;opacity:0.4}
+.brand-item.white-logo:hover{filter:none;opacity:0.9}
 
 /* ===== RESPONSIVE ===== */
 @media(max-width:1024px){
@@ -642,7 +645,15 @@ img{max-width:100%;display:block}
   <div class="brands anim">
     <div class="brands-label">Работаем с премиальными материалами</div>
     <div class="brands-row">
-      <div class="brand-item">XPEL</div><div class="brand-item">Suntek</div><div class="brand-item">Llumar</div><div class="brand-item">STEK</div><div class="brand-item">Hexis</div><div class="brand-item">Ceramic Pro</div><div class="brand-item">Gyeon</div><div class="brand-item">ServFace</div><div class="brand-item">Quantum</div>
+      <div class="brand-item"><img src="https://brand.xpel.com/m/68403fd6351fd40e/webimage-XPEL_Signature_Logo.png" alt="XPEL" loading="lazy"></div>
+      <div class="brand-item"><img src="https://www.suntekfilms.com/content/experience-fragments/eastman-performance-films/emea/en/site/header/master/_jcr_content/root/header/headcontainer/navcontainer/image.coreimg.svg/1668712596471/suntek-logo.svg" alt="Suntek" loading="lazy"></div>
+      <div class="brand-item"><img src="https://www.llumar.com/content/experience-fragments/eastman-llumar/en/site/header/master/_jcr_content/root/header/headcontainer/navcontainer/image.coreimg.png/1773332155607/llumarlogo-primary-fullcolor-rgb.png" alt="Llumar" loading="lazy"></div>
+      <div class="brand-item"><img src="https://d31muh84oxzu1x.cloudfront.net/0fafa56b-73e9-49b2-b588-691d2e4e4cab.webp" alt="STEK" loading="lazy"></div>
+      <div class="brand-item"><img src="https://www.hexis-graphics.com/wp-content/themes/Hexis/images/logo.png" alt="Hexis" loading="lazy"></div>
+      <div class="brand-item white-logo"><img src="https://www.ceramic-pro.com/images/layout/logo-white.svg" alt="Ceramic Pro" loading="lazy"></div>
+      <div class="brand-item white-logo"><img src="https://gyeon.co/wp-content/uploads/2020/05/gyeon_logo_white.png" alt="Gyeon" loading="lazy"></div>
+      <div class="brand-item"><img src="https://shop.servfaces.de/media/0e/0e/9a/1715329837/Logo_shopjzOtQdlAJ347w.png" alt="ServFace" loading="lazy"></div>
+      <div class="brand-item"><img src="https://www.quantum-film.com/wp-content/uploads/2019/05/quantum-logo-neu-w-o-ohne-background.png" alt="Quantum" loading="lazy"></div>
     </div>
   </div>
 </div>
